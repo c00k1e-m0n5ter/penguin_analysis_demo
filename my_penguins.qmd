@@ -19,3 +19,8 @@ species <- c("Adelie", "Galapagos", "Emperor", "Emperor", "Adelie", "Adelie", NA
 
 table(species)
 ```
+
+```{r}
+ggplot() +
+  geom_bar(mapping = aes(x=species))
+```
