@@ -1,0 +1,21 @@
+---
+title: "penguin_analysis_demo"
+author: "Kruthi, sv32845"
+date: "2026-10-27"
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+```{r}
+1 + 1
+library(tidyverse)
+library(palmerpenguins)
+```
+
+```{r}
+species <- c("Adelie", "Galapagos", "Emperor", "Emperor", "Adelie", "Adelie", NA)
+
+table(species)
+```
